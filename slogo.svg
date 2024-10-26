@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="hidden">
+  <g>
+    <path d="M5 72C5 33.6162 33.6162 5 72 5 110.384 5 139 33.6162 139 72 139 110.384 110.384 139 72 139 33.6162 139 5 110.384 5 72Z" 
+          stroke="#034903" stroke-width="4" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <text fill="#F8CCDA" font-family="Vivaldi,Vivaldi_MSFontService,sans-serif" font-style="italic" font-weight="400" 
+          font-stretch="condensed" font-size="80" transform="translate(15 98)">S</text>
+  </g>
+</svg>

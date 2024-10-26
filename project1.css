@@ -1,0 +1,50 @@
+.nav-item{
+    color: #10480D;
+}
+.carousel {
+    width: 100%; /* Full width */
+    height: 100vh; /* Viewport height, so it takes up the full height of the screen */
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Ensures the image scales while maintaining aspect ratio */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dancing Script', serif;
+    color: #10480D;
+    text-align: center;
+  }
+.title{
+    text-align: center;
+    border-radius: 5px;
+    border-color:#F8CCDA;
+    background-color: #F8CCDA;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#navbar{
+    background-color: darkgray;
+    margin-bottom: 0px;
+    margin:0px;
+    padding-bottom: 0px;
+}
+#rsvpform{
+    background-color: darkgrey;
+    border-radius: 25px;
+}
+.card-title{
+    color: #10480D;
+}
+.card{
+    background-color: darkgray;
+}
+.nav-item:hover{
+    background-color: #F8CCDA;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: #10480D;
+}
