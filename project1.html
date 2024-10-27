@@ -32,10 +32,17 @@
                 <i class="material-icons">home</i>
                 <a class="nav-link button-primary ms-2" aria-current="page" href="#home">Home</a>
                 </li>
-              <li class="nav-item d-flex align-items-center">
+              <li class="nav-item dropdown d-flex align-items-center">
                 <i class="material-icons">favorite</i>
-                <a class="nav-link" href="#ourstory">Our Story</a>
-              </li>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#ourstory" role="button" aria-expanded="false">Our Story</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#firstmeeting"> Our First Meeting</a></li>
+                  <li><a class="dropdown-item" href="#firstdate"> Our First Date</a></li>
+                  <li><a class="dropdown-item" href="#gfbf"> Girlfriend and Boyfriend</a></li>
+                  <li><a class="dropdown-item" href="#tucson"> First Time in Tucson</a></li>
+                  <li><a class="dropdown-item" href="#oneyear"> One Year</a></li>
+                  <li><a class="dropdown-item" href="#engagement"> Our Engagement</a></li>
+                </ul>
               </li>
               <li class="nav-item d-flex align-items-center">
                 <i class="material-icons">event_note</i>
@@ -88,9 +95,9 @@
     </section>
     <section class="ourstory" id="ourstory">
         <h2 class="title">Our Story</h2>
-        <div class="row d-flex row-cols-1 row-cols-md-2 g-4">
+        <div class="row d-flex row-cols-1 row-cols-md-2 g-4 mx-md-2">
             <div class="col">
-              <div class="card h-100">
+              <div class="card h-100" id="firstmeeting">
                 <img src="grandcanyon.jpg" class="card-img-top" alt="grandcanyon">
                 <div class="card-body">
                   <h5 class="card-title">April 1<sup>st</sup>, 2023: Our First Meeting</h5>
@@ -99,7 +106,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
+              <div class="card h-100" id="firstdate">
                 <img src="stewartfalls.jpg" class="card-img-top" alt="stewartfalls">
                 <div class="card-body">
                   <h5 class="card-title">April 21<sup>st</sup>, 2023: Our First Date</h5>
@@ -108,7 +115,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
+              <div class="card h-100" id="gfbf">
                 <img src="littlegrandcanyon.jpg" class="card-img-top" alt="Price Little Grand Canyon">
                 <div class="card-body">
                   <h5 class="card-title">August 26<sup>th</sup>, 2023: Girlfriend and Boyfriend</h5>
@@ -117,25 +124,25 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
+              <div class="card h-100" id="tucson">
                 <img src="tucsontemplemay.jpg" class="card-img-top" alt="First Time in Tucson">
                 <div class="card-body">
-                  <h5 class="card-title">May 12<sup>th</sup>, 2024: Fletcher Meeting Glori's Parents</h5>
-                  <p class="card-text">This was a really siginificant move because this was the first time that Fletcher had been to Glori's home. He had help Glori drive back home for the summer and this was right before we went long distance for the summer. Long distance was difficult so it was really nice to have these moments in Tucson.</p>
+                  <h5 class="card-title">May 12<sup>th</sup>, 2024: First Time in Tucson</h5>
+                  <p class="card-text">Fletcher had helped Glori drive back home for the summer and this was right before they went long distance for the summer. Long distance was difficult so it was really nice to have these moments in Tucson. This was a really siginificant move because this was the first time that Fletcher had been to Glori's home. This was also the first time Fletcher met Glori's parents. Except he didn't ask her parents for her hand here he waited until his trip in August! </p>
                 </div>
               </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100" id="oneyear">
                   <img src="washingtonriver.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">August 26<sup>th</sup>, 2024: One Year  </h5>
+                    <h5 class="card-title">August 26<sup>th</sup>, 2024: One Year</h5>
                     <p class="card-text">We had been dating for a whole year at this point and had gotten to meet a lot of each others families. It was right before our one year mark that we took a two week long road trip visiting family in Arizona, Washington, and Idaho. It was so fun and we got to experience new things like visiting a missile silo in Tucson and going on the river together in Washington! This was before celebrating our one year which we did relaxing in Provo. Glori got Fletcher two Star Wars lego sets and Fletcher got Glori a beautiful necklace and earrings (no rings yet!)</p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100">
+                <div class="card h-100" id="engagement">
                   <img src="landscapehug.jpg" class="card-img-top" alt="Proposal">
                   <div class="card-body">
                     <h5 class="card-title">October 20<sup>th</sup>, 2024: Our Engagement</h5>
