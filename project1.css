@@ -12,6 +12,27 @@
     height: 100%; /* Full height */
     object-fit: cover; /* Ensures the image scales while maintaining aspect ratio */
 }
+.carousel {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    position: relative; /* Ensures proper alignment of children */
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%; /* Ensure it takes the full height of the carousel */
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%; /* Matches parent height */
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Dancing Script', serif;
     color: #10480D;
@@ -33,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #rsvpform{
     background-color: darkgrey;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 .card-title{
     color: #10480D;
@@ -69,4 +90,51 @@ body, p,.dropdown-item{
     background: 0 0;
     border: 0;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  }
+  button{
+    color: #10480D;
+    background-color: #F8CCDA;
+    border-radius: 5px;
+  }
+  #firstmeeting{
+    transition: all;
+  }
+  #firstmeeting:hover{
+    background-color: #F8CCDA;
+  }
+  #firstdate{
+    transition: all;
+  }
+  #firstdate:hover{
+    background-color: #F8CCDA;
+  }
+  #gfbf{
+    transition: all;
+  }
+  #gfbf:hover{
+    background-color: #F8CCDA;
+  }
+  #tucson{
+    transition: all;
+  }
+  #tucson:hover{
+    background-color: #F8CCDA;
+  }
+  #oneyear{
+    transition: all;
+  }
+  #oneyear:hover{
+    background-color: #F8CCDA;
+  }
+  #engagement{
+    transition: all;
+  }
+  #engagement:hover{
+    background-color: #F8CCDA;
+  }
+  #logo{
+    transition: all;
+  }
+  #logo:hover{
+    transform: scale(130%, 130%)
   }
